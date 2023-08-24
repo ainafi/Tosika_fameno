@@ -18,7 +18,7 @@ const Home = () => {
       <Client/>
       <Fondateur/>
       <Footer/>
-      <FooterBotto/>
+      {/* <FooterBotto/> */}
 
       
     </div>
