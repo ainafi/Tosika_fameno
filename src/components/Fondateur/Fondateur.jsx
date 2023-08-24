@@ -29,8 +29,8 @@ export default function App() {
       >
         {Fondateurs.map((item,index)=>(
 
-        <SwiperSlide className='aswiper-slide'>
-          <Carrousel key={item.id} {...item} />
+        <SwiperSlide key={item.id} className='aswiper-slide'>
+          <Carrousel  {...item} />
         </SwiperSlide>
         ))}
       </Swiper>
