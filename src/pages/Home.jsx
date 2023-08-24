@@ -6,7 +6,7 @@ import CardVisa from '../components/CardVisa'
 import Client from '../components/Client'
 import Fondateur from '../components/Fondateur/Fondateur'
 import Footer from '../components/Footer'
-import FooterBotto from '../components/FooterBotto'
+
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
       <Client/>
       <Fondateur/>
       <Footer/>
-      <FooterBotto/>
+     
 
       
     </div>
